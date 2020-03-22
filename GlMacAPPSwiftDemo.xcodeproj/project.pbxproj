@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		2121A1212426ECDF000B04F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2121A11F2426ECDF000B04F4 /* Main.storyboard */; };
 		2121A12D2426ECDF000B04F4 /* GlMacAPPSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2121A12C2426ECDF000B04F4 /* GlMacAPPSwiftDemoTests.swift */; };
 		2121A1382426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2121A1372426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.swift */; };
+		2121A14824274E71000B04F4 /* BasicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2121A14724274E71000B04F4 /* BasicTypes.swift */; };
+		BEEAE1DAAB63269139F79E9C /* Pods_GlMacAPPSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0791F67C21F24B7515A0A1 /* Pods_GlMacAPPSwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C0791F67C21F24B7515A0A1 /* Pods_GlMacAPPSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlMacAPPSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2121A1162426ECDD000B04F4 /* GlMacAPPSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlMacAPPSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2121A1192426ECDD000B04F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2121A11B2426ECDD000B04F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +49,9 @@
 		2121A1332426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlMacAPPSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2121A1372426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlMacAPPSwiftDemoUITests.swift; sourceTree = "<group>"; };
 		2121A1392426ECE0000B04F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2121A14724274E71000B04F4 /* BasicTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTypes.swift; sourceTree = "<group>"; };
+		74FB6A01A52EC27469660FFF /* Pods-GlMacAPPSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlMacAPPSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-GlMacAPPSwiftDemo/Pods-GlMacAPPSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C5BD404CE57D70270A653DD0 /* Pods-GlMacAPPSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlMacAPPSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-GlMacAPPSwiftDemo/Pods-GlMacAPPSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEEAE1DAAB63269139F79E9C /* Pods_GlMacAPPSwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20B9BE77D93AA9814EB500C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C0791F67C21F24B7515A0A1 /* Pods_GlMacAPPSwiftDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2121A10D2426ECDD000B04F4 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +95,8 @@
 				2121A12B2426ECDF000B04F4 /* GlMacAPPSwiftDemoTests */,
 				2121A1362426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests */,
 				2121A1172426ECDD000B04F4 /* Products */,
+				5748B91E758E0A180F02CAC6 /* Pods */,
+				20B9BE77D93AA9814EB500C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +113,7 @@
 		2121A1182426ECDD000B04F4 /* GlMacAPPSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2121A14624274E3E000B04F4 /* Model */,
 				2121A1192426ECDD000B04F4 /* AppDelegate.swift */,
 				2121A11B2426ECDD000B04F4 /* ViewController.swift */,
 				2121A11D2426ECDF000B04F4 /* Assets.xcassets */,
@@ -124,6 +142,23 @@
 			path = GlMacAPPSwiftDemoUITests;
 			sourceTree = "<group>";
 		};
+		2121A14624274E3E000B04F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2121A14724274E71000B04F4 /* BasicTypes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5748B91E758E0A180F02CAC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5BD404CE57D70270A653DD0 /* Pods-GlMacAPPSwiftDemo.debug.xcconfig */,
+				74FB6A01A52EC27469660FFF /* Pods-GlMacAPPSwiftDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2121A13C2426ECE0000B04F4 /* Build configuration list for PBXNativeTarget "GlMacAPPSwiftDemo" */;
 			buildPhases = (
+				C955EA972E6B1737102357C9 /* [CP] Check Pods Manifest.lock */,
 				2121A1122426ECDD000B04F4 /* Sources */,
 				2121A1132426ECDD000B04F4 /* Frameworks */,
 				2121A1142426ECDD000B04F4 /* Resources */,
+				9849F5935E0CE58647D69B23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +286,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9849F5935E0CE58647D69B23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GlMacAPPSwiftDemo/Pods-GlMacAPPSwiftDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GlMacAPPSwiftDemo/Pods-GlMacAPPSwiftDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GlMacAPPSwiftDemo/Pods-GlMacAPPSwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C955EA972E6B1737102357C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GlMacAPPSwiftDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2121A1122426ECDD000B04F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -256,6 +335,7 @@
 			files = (
 				2121A11C2426ECDD000B04F4 /* ViewController.swift in Sources */,
 				2121A11A2426ECDD000B04F4 /* AppDelegate.swift in Sources */,
+				2121A14824274E71000B04F4 /* BasicTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +497,7 @@
 		};
 		2121A13D2426ECE0000B04F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BD404CE57D70270A653DD0 /* Pods-GlMacAPPSwiftDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GlMacAPPSwiftDemo/GlMacAPPSwiftDemo.entitlements;
@@ -435,6 +516,7 @@
 		};
 		2121A13E2426ECE0000B04F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FB6A01A52EC27469660FFF /* Pods-GlMacAPPSwiftDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GlMacAPPSwiftDemo/GlMacAPPSwiftDemo.entitlements;

@@ -1,0 +1,6 @@
+framework module Pods_GlMacAPPSwiftDemo {
+  umbrella header "Pods-GlMacAPPSwiftDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
