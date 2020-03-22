@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2121A11A2426ECDD000B04F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2121A1192426ECDD000B04F4 /* AppDelegate.swift */; };
+		2121A11C2426ECDD000B04F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2121A11B2426ECDD000B04F4 /* ViewController.swift */; };
+		2121A11E2426ECDF000B04F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2121A11D2426ECDF000B04F4 /* Assets.xcassets */; };
+		2121A1212426ECDF000B04F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2121A11F2426ECDF000B04F4 /* Main.storyboard */; };
+		2121A12D2426ECDF000B04F4 /* GlMacAPPSwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2121A12C2426ECDF000B04F4 /* GlMacAPPSwiftDemoTests.swift */; };
+		2121A1382426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2121A1372426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2121A1292426ECDF000B04F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2121A10E2426ECDD000B04F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2121A1152426ECDD000B04F4;
+			remoteInfo = GlMacAPPSwiftDemo;
+		};
+		2121A1342426ECE0000B04F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2121A10E2426ECDD000B04F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2121A1152426ECDD000B04F4;
+			remoteInfo = GlMacAPPSwiftDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2121A1162426ECDD000B04F4 /* GlMacAPPSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlMacAPPSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2121A1192426ECDD000B04F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2121A11B2426ECDD000B04F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2121A11D2426ECDF000B04F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2121A1202426ECDF000B04F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2121A1222426ECDF000B04F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2121A1232426ECDF000B04F4 /* GlMacAPPSwiftDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GlMacAPPSwiftDemo.entitlements; sourceTree = "<group>"; };
+		2121A1282426ECDF000B04F4 /* GlMacAPPSwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlMacAPPSwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2121A12C2426ECDF000B04F4 /* GlMacAPPSwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlMacAPPSwiftDemoTests.swift; sourceTree = "<group>"; };
+		2121A12E2426ECDF000B04F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2121A1332426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlMacAPPSwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2121A1372426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlMacAPPSwiftDemoUITests.swift; sourceTree = "<group>"; };
+		2121A1392426ECE0000B04F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2121A1132426ECDD000B04F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2121A1252426ECDF000B04F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2121A1302426ECE0000B04F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2121A10D2426ECDD000B04F4 = {
+			isa = PBXGroup;
+			children = (
+				2121A1182426ECDD000B04F4 /* GlMacAPPSwiftDemo */,
+				2121A12B2426ECDF000B04F4 /* GlMacAPPSwiftDemoTests */,
+				2121A1362426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests */,
+				2121A1172426ECDD000B04F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2121A1172426ECDD000B04F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2121A1162426ECDD000B04F4 /* GlMacAPPSwiftDemo.app */,
+				2121A1282426ECDF000B04F4 /* GlMacAPPSwiftDemoTests.xctest */,
+				2121A1332426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2121A1182426ECDD000B04F4 /* GlMacAPPSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2121A1192426ECDD000B04F4 /* AppDelegate.swift */,
+				2121A11B2426ECDD000B04F4 /* ViewController.swift */,
+				2121A11D2426ECDF000B04F4 /* Assets.xcassets */,
+				2121A11F2426ECDF000B04F4 /* Main.storyboard */,
+				2121A1222426ECDF000B04F4 /* Info.plist */,
+				2121A1232426ECDF000B04F4 /* GlMacAPPSwiftDemo.entitlements */,
+			);
+			path = GlMacAPPSwiftDemo;
+			sourceTree = "<group>";
+		};
+		2121A12B2426ECDF000B04F4 /* GlMacAPPSwiftDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2121A12C2426ECDF000B04F4 /* GlMacAPPSwiftDemoTests.swift */,
+				2121A12E2426ECDF000B04F4 /* Info.plist */,
+			);
+			path = GlMacAPPSwiftDemoTests;
+			sourceTree = "<group>";
+		};
+		2121A1362426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2121A1372426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.swift */,
+				2121A1392426ECE0000B04F4 /* Info.plist */,
+			);
+			path = GlMacAPPSwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2121A1152426ECDD000B04F4 /* GlMacAPPSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2121A13C2426ECE0000B04F4 /* Build configuration list for PBXNativeTarget "GlMacAPPSwiftDemo" */;
+			buildPhases = (
+				2121A1122426ECDD000B04F4 /* Sources */,
+				2121A1132426ECDD000B04F4 /* Frameworks */,
+				2121A1142426ECDD000B04F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlMacAPPSwiftDemo;
+			productName = GlMacAPPSwiftDemo;
+			productReference = 2121A1162426ECDD000B04F4 /* GlMacAPPSwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2121A1272426ECDF000B04F4 /* GlMacAPPSwiftDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2121A13F2426ECE0000B04F4 /* Build configuration list for PBXNativeTarget "GlMacAPPSwiftDemoTests" */;
+			buildPhases = (
+				2121A1242426ECDF000B04F4 /* Sources */,
+				2121A1252426ECDF000B04F4 /* Frameworks */,
+				2121A1262426ECDF000B04F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2121A12A2426ECDF000B04F4 /* PBXTargetDependency */,
+			);
+			name = GlMacAPPSwiftDemoTests;
+			productName = GlMacAPPSwiftDemoTests;
+			productReference = 2121A1282426ECDF000B04F4 /* GlMacAPPSwiftDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2121A1322426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2121A1422426ECE0000B04F4 /* Build configuration list for PBXNativeTarget "GlMacAPPSwiftDemoUITests" */;
+			buildPhases = (
+				2121A12F2426ECE0000B04F4 /* Sources */,
+				2121A1302426ECE0000B04F4 /* Frameworks */,
+				2121A1312426ECE0000B04F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2121A1352426ECE0000B04F4 /* PBXTargetDependency */,
+			);
+			name = GlMacAPPSwiftDemoUITests;
+			productName = GlMacAPPSwiftDemoUITests;
+			productReference = 2121A1332426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2121A10E2426ECDD000B04F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = gleeeli;
+				TargetAttributes = {
+					2121A1152426ECDD000B04F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					2121A1272426ECDF000B04F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2121A1152426ECDD000B04F4;
+					};
+					2121A1322426ECE0000B04F4 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 2121A1152426ECDD000B04F4;
+					};
+				};
+			};
+			buildConfigurationList = 2121A1112426ECDD000B04F4 /* Build configuration list for PBXProject "GlMacAPPSwiftDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2121A10D2426ECDD000B04F4;
+			productRefGroup = 2121A1172426ECDD000B04F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2121A1152426ECDD000B04F4 /* GlMacAPPSwiftDemo */,
+				2121A1272426ECDF000B04F4 /* GlMacAPPSwiftDemoTests */,
+				2121A1322426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2121A1142426ECDD000B04F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2121A11E2426ECDF000B04F4 /* Assets.xcassets in Resources */,
+				2121A1212426ECDF000B04F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2121A1262426ECDF000B04F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2121A1312426ECE0000B04F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2121A1122426ECDD000B04F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2121A11C2426ECDD000B04F4 /* ViewController.swift in Sources */,
+				2121A11A2426ECDD000B04F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2121A1242426ECDF000B04F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2121A12D2426ECDF000B04F4 /* GlMacAPPSwiftDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2121A12F2426ECE0000B04F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2121A1382426ECE0000B04F4 /* GlMacAPPSwiftDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2121A12A2426ECDF000B04F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2121A1152426ECDD000B04F4 /* GlMacAPPSwiftDemo */;
+			targetProxy = 2121A1292426ECDF000B04F4 /* PBXContainerItemProxy */;
+		};
+		2121A1352426ECE0000B04F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2121A1152426ECDD000B04F4 /* GlMacAPPSwiftDemo */;
+			targetProxy = 2121A1342426ECE0000B04F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2121A11F2426ECDF000B04F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2121A1202426ECDF000B04F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2121A13A2426ECE0000B04F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2121A13B2426ECE0000B04F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2121A13D2426ECE0000B04F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GlMacAPPSwiftDemo/GlMacAPPSwiftDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GlMacAPPSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleeeli.comm.demo.GlMacAPPSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2121A13E2426ECE0000B04F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GlMacAPPSwiftDemo/GlMacAPPSwiftDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GlMacAPPSwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleeeli.comm.demo.GlMacAPPSwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2121A1402426ECE0000B04F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GlMacAPPSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleeeli.comm.demo.GlMacAPPSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlMacAPPSwiftDemo.app/Contents/MacOS/GlMacAPPSwiftDemo";
+			};
+			name = Debug;
+		};
+		2121A1412426ECE0000B04F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GlMacAPPSwiftDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleeeli.comm.demo.GlMacAPPSwiftDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GlMacAPPSwiftDemo.app/Contents/MacOS/GlMacAPPSwiftDemo";
+			};
+			name = Release;
+		};
+		2121A1432426ECE0000B04F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GlMacAPPSwiftDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleeeli.comm.demo.GlMacAPPSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GlMacAPPSwiftDemo;
+			};
+			name = Debug;
+		};
+		2121A1442426ECE0000B04F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GlMacAPPSwiftDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gleeeli.comm.demo.GlMacAPPSwiftDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GlMacAPPSwiftDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2121A1112426ECDD000B04F4 /* Build configuration list for PBXProject "GlMacAPPSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2121A13A2426ECE0000B04F4 /* Debug */,
+				2121A13B2426ECE0000B04F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2121A13C2426ECE0000B04F4 /* Build configuration list for PBXNativeTarget "GlMacAPPSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2121A13D2426ECE0000B04F4 /* Debug */,
+				2121A13E2426ECE0000B04F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2121A13F2426ECE0000B04F4 /* Build configuration list for PBXNativeTarget "GlMacAPPSwiftDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2121A1402426ECE0000B04F4 /* Debug */,
+				2121A1412426ECE0000B04F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2121A1422426ECE0000B04F4 /* Build configuration list for PBXNativeTarget "GlMacAPPSwiftDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2121A1432426ECE0000B04F4 /* Debug */,
+				2121A1442426ECE0000B04F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2121A10E2426ECDD000B04F4 /* Project object */;
+}
